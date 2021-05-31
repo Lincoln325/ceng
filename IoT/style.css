@@ -1,0 +1,109 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  border: 0;
+  text-align: center;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: justify;
+}
+
+h1 {
+  font-size: 5em;
+  font-weight: 400;
+}
+
+.header {
+  background: linear-gradient(to bottom right, #33ccff 0%, #ff99cc 100%);
+  color: white;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: 601px) {
+  .header_box {
+    margin: 150px;
+  }
+
+  .header h1 {
+    font-size: 5rem;
+    font-weight: 700;
+  }
+
+  .header img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 601px) {
+  .header_box {
+    margin: 150px;
+  }
+
+  .header h1 {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+
+  .header img {
+    width: 80%;
+  }
+}
+
+.logo img{
+  padding: 10px;
+  width: 250px;
+}
+
+.schedule tr th {
+  text-align: center;
+  border: 1px solid black;
+}
+
+.schedule tr td {
+  text-align: center;
+  font-weight: 400;
+  border: 1px solid black;
+}
+
+table, th, td {
+  font-weight: 400;
+}
+
+.schedule tr th {
+  text-align: center;
+  font-weight: 600;
+  border: 1px solid black;
+}
+
+.schedule  tr td {
+  text-align: center;
+  font-weight: 400;
+  border: 1px solid black;
+}
+
+@media screen and (min-width: 601px) {
+  .enquiries {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 601px) {
+  .enquiries {
+    width: 100%;
+  }
+}
+
+footer {
+  margin-top: 70px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 300;
+}
