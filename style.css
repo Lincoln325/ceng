@@ -38,6 +38,11 @@ h1 {
   .header img {
     width: 100%;
   }
+
+  .header .logo img {
+    padding: 10px;
+    width: 250px;
+  }
 }
 
 @media screen and (max-width: 601px) {
@@ -52,6 +57,11 @@ h1 {
 
   .header img {
     width: 80%;
+  }
+
+  .header .logo img {
+    padding: 10px;
+    width: 200px;
   }
 }
 
