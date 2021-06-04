@@ -35,12 +35,15 @@ h1 {
     font-weight: 700;
   }
 
-  .header img {
+  .iot img {
     width: 100%;
   }
 
-  .header .logo img {
-    padding: 10px;
+  .header .ieee img {
+    width: 150px;
+  }
+
+  .header .city img {
     width: 250px;
   }
 }
@@ -55,30 +58,17 @@ h1 {
     font-weight: 700;
   }
 
-  .header img {
+  .iot img {
     width: 80%;
   }
 
-  .header .logo img {
-    padding: 10px;
-    width: 150px;
+  .header .ieee img {
+    width: 130px;
   }
-}
 
-.logo img{
-  padding: 10px;
-  width: 250px;
-}
-
-.schedule tr th {
-  text-align: center;
-  border: 1px solid black;
-}
-
-.schedule tr td {
-  text-align: center;
-  font-weight: 400;
-  border: 1px solid black;
+  .header .city img {
+    width: 220px;
+  }
 }
 
 table, th, td {
@@ -97,16 +87,8 @@ table, th, td {
   border: 1px solid black;
 }
 
-@media screen and (min-width: 601px) {
-  .enquiries {
-    width: 50%;
-  }
-}
-
-@media screen and (max-width: 601px) {
-  .enquiries {
-    width: 100%;
-  }
+.logo img {
+  margin: 10px;
 }
 
 footer {
