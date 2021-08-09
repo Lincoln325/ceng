@@ -40,11 +40,15 @@ h1 {
   }
 
   .header .ieee img {
-    width: 130px;
+    width: 150px;
   }
 
-  .header .city img {
-    width: 230px;
+  .header .ceng img {
+    height: 55px;
+  }
+
+  .header .ee img {
+    height: 55px;
   }
 }
 
@@ -63,11 +67,15 @@ h1 {
   }
 
   .header .ieee img {
-    width: 100px;
+    width: 150px;
   }
 
-  .header .city img {
-    width: 200px;
+  .header .ceng img {
+    height: 50px;
+  }
+
+  .header .ee img {
+    height: 50px;
   }
 }
 
